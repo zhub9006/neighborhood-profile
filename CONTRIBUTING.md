@@ -27,3 +27,7 @@ All data should be sourced from OpenStreetMap (ODbL 1.0) or other open data sour
 - Verify data freshness (OSM data changes over time)
 - Include distance measurements for all amenities
 - Use standardized categories (groceries, cafes, transit, etc.)
+
+## PR for Nob Hill Data
+
+This branch contains the initial contribution for Nob Hill / Northwest District neighborhood profile data.
