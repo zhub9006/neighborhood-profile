@@ -116,13 +116,35 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 - Siri Indian Cuisine: 68m
 - Henry Higgins Boiled Bagels: 95m
 - NW 23rd & Marshall St: 128m (nearest transit)
-- Lovejoy Grocery: 173m
+- Lovejo Grocery: 173m
+
+## Data Files
+
+This repository contains two data files for the Nob Hill / Northwest District neighborhood:
+
+| File | Description |
+|------|-------------|
+| [`data/nob-hill-portland.json`](data/nob-hill-portland.json) | General neighborhood-level data with walkability scores and amenity summaries for the Nob Hill / Northwest District area |
+| [`data/nob-hill-1234-nw-23rd-ave.json`](data/nob-hill-1234-nw-23rd-ave.json) | Address-specific detailed walkability breakdown, transportation, and amenities data for 1234 NW 23rd Avenue |
+
+### Repository Structure
+
+```
+neighborhood-profile/
+├── README.md
+├── CONTRIBUTING.md
+├── data/
+│   ├── nob-hill-portland.json          # General neighborhood data
+│   └── nob-hill-1234-nw-23rd-ave.json  # Address-specific detailed data
+└── docs/
+    └── methodology.md                  # Walkability scoring methodology
+```
 
 ## Data Sources
 
 - **Primary:** OpenStreetMap (Data © OpenStreetMap contributors, ODbL 1.0)
 - **Analysis Method:** OSM-based neighborhood scoring via OSRM routing
-- **Data Collection Date:** 2026-07-14
+- **Data Collection Date:** 2026-07-15
 - **Analysis Radius:** 1000 meters
 - **OSM Place ID:** 407060190
 - **OSM Way ID:** 119636244
@@ -137,18 +159,3 @@ Contributions to enhance or correct this neighborhood data are welcome! Please:
 ## License
 
 Open data - feel free to use and distribute under Open Database License (ODbL).
-
-## Repository Structure
-
-### Directories
-- **data/** — JSON neighborhood data files
-
-### Files
-- README.md (11.2 KB)
-- CONTRIBUTING.md (0.96 KB)
-- data/nob-hill-portland.json (5.97 KB)
-
-## Links
-
-- **GitHub:** https://github.com/zhub9006/neighborhood-profile
-- **Clone:** `git clone https://github.com/zhub9006/neighborhood-profile.git`
