@@ -35,10 +35,10 @@ This neighborhood in Portland's Nob Hill area of the Northwest District enjoys e
 - **89 restaurants** within 1km — one of the highest restaurant densities in Portland
 - **Walker's Paradise** — daily errands do not require a car
 - **Excellent transit** — Portland Streetcar stops within walking distance (2 min walk to nearest stop)
-- **Culinary diversity** — Thai, Burmese, Indian, Greek, Mexican, Italian, Vietnamese cuisines all within 200m
+- **Culinary diversity** — Thai, Burmese, Indian, Greek, Mexican, Italian, Vietnamese, Korean cuisines all within 200m
 - **Grocery access** — 3 options including convenience stores within 175m and supermarket within 1km
 - **Excellent healthcare access** — 6 facilities within 1km including pharmacy 38m away
-- **Strong fitness access** — 8+ sports/fitness facilities including LA Fitness, YogaSix, Portland Aikikai
+- **Strong fitness access** — 11+ sports/fitness facilities including YogaSix, LA Fitness, Portland Aikikai
 - **Bicycle culture** — Cyclepath West (bike shop) within 900m; Portland's bike-friendly infrastructure
 - **8 transit stops** within 1km on NW 23rd Avenue and W Burnside Street
 
@@ -120,12 +120,13 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 
 ## Data Files
 
-This repository contains two data files for the Nob Hill / Northwest District neighborhood:
+This repository contains three data files for the Nob Hill / Northwest District neighborhood:
 
 | File | Description |
 |------|-------------|
 | [`data/nob-hill-portland.json`](data/nob-hill-portland.json) | General neighborhood-level data with walkability scores and amenity summaries for the Nob Hill / Northwest District area |
 | [`data/nob-hill-1234-nw-23rd-ave.json`](data/nob-hill-1234-nw-23rd-ave.json) | Address-specific detailed walkability breakdown, transportation, and amenities data for 1234 NW 23rd Avenue |
+| [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info |
 
 ### Repository Structure
 
@@ -133,11 +134,14 @@ This repository contains two data files for the Nob Hill / Northwest District ne
 neighborhood-profile/
 ├── README.md
 ├── CONTRIBUTING.md
+├── docs/
+│   └── methodology.md                  # Walkability scoring methodology
 ├── data/
 │   ├── nob-hill-portland.json          # General neighborhood data
-│   └── nob-hill-1234-nw-23rd-ave.json  # Address-specific detailed data
-└── docs/
-    └── methodology.md                  # Walkability scoring methodology
+│   ├── nob-hill-1234-nw-23rd-ave.json  # Address-specific detailed data
+│   └── nob-hill-1234-nw-23rd-ave-live-contribution.json  # Live contributor data
+└── issues/
+    └── #1                              # Data update tracking
 ```
 
 ## Data Sources
