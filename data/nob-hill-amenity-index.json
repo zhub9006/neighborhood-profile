@@ -1,0 +1,102 @@
+{
+  "address": "1234 NW 23rd Avenue, Portland, OR 97210",
+  "coordinates": { "latitude": 45.5317733, "longitude": -122.6985653 },
+  "neighborhood": "Nob Hill",
+  "suburb": "Northwest District",
+  "city": "Portland",
+  "county": "Multnomah County",
+  "state": "Oregon",
+  "postcode": "97210",
+  "country": "United States",
+  "analysis_metadata": {
+    "analysis_radius_meters": 1000,
+    "data_collection_date": "2025-07-15",
+    "data_sources": ["OpenStreetMap (© OpenStreetMap contributors, ODbL 1.0)", "OSRM-based routing"],
+    "analysis_method": "OSM amenity density and proximity scoring"
+  },
+  "amenity_index": {
+    "restaurants": {
+      "count_1km": 89,
+      "count_2km": 150,
+      "nearest_5": [
+        { "name": "Tara Thai Northwest", "distance_m": 42, "cuisine": "Thai/Lao", "address": "1310 NW 23rd Ave" },
+        { "name": "Top Burmese Burma Joy", "distance_m": 47, "cuisine": "Burmese/Asian", "address": "1305 NW 23rd Ave" },
+        { "name": "Siri Indian Cuisine", "distance_m": 69, "cuisine": "Indian", "address": "1323 NW 23rd Ave" },
+        { "name": "Henry Higgins Boiled Bagels", "distance_m": 95, "cuisine": "Bagel/American", "address": "1320 NW 23rd Ave" },
+        { "name": "Pepino's", "distance_m": 98, "cuisine": "Mexican", "address": "1414 NW 23rd Ave" }
+      ],
+      "cuisine_categories": ["Thai/Lao", "Burmese", "Indian", "Greek", "Mexican", "Italian", "Vietnamese", "Korean", "Latin", "American", "French", "Mediterranean"],
+      "avg_distance_m": 543
+    },
+    "cafes": {
+      "count_1km": 12,
+      "nearest_5": [
+        { "name": "Case Study Coffee Roasters", "distance_m": 114, "type": "specialty coffee", "address": "1400 NW 23rd Ave" },
+        { "name": "Memento Mori Cafe", "distance_m": 285, "type": "vegan cafe", "address": "1533 NW 24th Ave" },
+        { "name": "Portal Tea", "distance_m": 345, "type": "tea house", "address": "734 NW 23rd Ave" },
+        { "name": "Kirari West", "distance_m": 318, "type": "gluten-free bakery", "address": "1668 NW 23rd Ave" },
+        { "name": "Harlow Cafe + Juice Bar", "distance_m": 410, "type": "juice bar", "address": "505 NW 23rd Ave" }
+      ]
+    },
+    "groceries": {
+      "count_1km": 3,
+      "nearest": [
+        { "name": "Lovejoy Grocery", "distance_m": 173, "type": "convenience store", "address": "1025 NW 23rd Ave" },
+        { "name": "Natural Mart #3", "distance_m": 876, "type": "convenience store", "address": "522 NW 19th Ave" },
+        { "name": "Zupan's Markets", "distance_m": 955, "type": "supermarket", "address": "2340 W Burnside St" }
+      ]
+    },
+    "healthcare": {
+      "count_1km": 6,
+      "nearest": [
+        { "name": "Walgreens Pharmacy", "distance_m": 38, "type": "pharmacy", "address": "1215 NW 23rd Ave" },
+        { "name": "Integrative Primary Care Associates", "distance_m": 452, "type": "doctor", "address": "2050 NW Lovejoy St" },
+        { "name": "James P. Thomas, MD (ENT)", "distance_m": 727, "type": "specialist", "address": "909 NW 18th Ave" }
+      ]
+    },
+    "pharmacies": {
+      "count_1km": 2,
+      "nearest": [
+        { "name": "Walgreens Pharmacy", "distance_m": 38, "address": "1215 NW 23rd Ave" },
+        { "name": "Walgreens Pharmacy (2nd location)", "distance_m": 918, "address": "2103 W Burnside St" }
+      ]
+    },
+    "banks": {
+      "count_1km": 5,
+      "nearest": [
+        { "name": "Chase Bank", "distance_m": 602 }, { "name": "U.S. Bank", "distance_m": 890 }, { "name": "Wells Fargo", "distance_m": 950 }
+      ]
+    },
+    "education": {
+      "count_1km": 2,
+      "nearest": [
+        { "name": "Bridges Middle School", "distance_m": 816, "address": "1638 NW Overton St" },
+        { "name": "Class Academy", "distance_m": 890, "address": "2730 NW Wardway St" }
+      ]
+    },
+    "shopping": {
+      "count_1km": 16,
+      "notable": ["Ken's Artisan Bakery", "Title Nine", "Natural Mart #3", "Zupan's Markets"]
+    },
+    "sports_fitness": {
+      "count_1km": 11,
+      "facilities": ["YogaSix", "LA Fitness", "Portland Aikikai", "Hyatt Training", "Orangetheory Fitness", "Kiska", "Industrial Strength Gym", "Cyclepath West"]
+    },
+    "ev_charging": {
+      "count_2km": 9,
+      "nearest": [
+        { "name": "EVgo", "distance_m": 336, "address": "2170 NW Raleigh St", "connectors": ["CHAdeMO", "Type 1 Combo"], "hours": "24/7" }
+      ]
+    },
+    "public_transport": {
+      "score": 9.4,
+      "stops_within_1km": 8,
+      "networks": ["TriMet", "Portland Streetcar"],
+      "nearest_stop": { "name": "NW 23rd & Marshall", "distance_m": 128, "walk_time_min": 2, "routes": ["NS", "A Loop", "B Loop", "Bus 8989"] }
+    },
+    "parking": {
+      "count_1500m": 15,
+      "types": ["surface lot", "street side", "multi-storey"]
+    }
+  }
+}

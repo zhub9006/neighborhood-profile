@@ -1,0 +1,66 @@
+{
+  "address": "1234 NW 23rd Avenue, Portland, OR 97210",
+  "coordinates": { "latitude": 45.5317733, "longitude": -122.6985653 },
+  "neighborhood": "Nob Hill",
+  "suburb": "Northwest District",
+  "city": "Portland",
+  "county": "Multnomah County",
+  "state": "Oregon",
+  "postcode": "97210",
+  "country": "United States",
+  "parks_and_recreation": {
+    "score": 4.3,
+    "rating": "Good",
+    "total_parks_1km": 3,
+    "features": [
+      {
+        "name": "Nob Hill Nature Park",
+        "type": "nature preserve",
+        "distance_m": "500-600",
+        "address": "2320 NW Alameda Street, Portland, OR 97210",
+        "description": "A small forested nature park with walking trails, native plants, and bird watching opportunities.",
+        "amenities": ["walking trails", "native plant gardens", "bird watching", "picnic area"]
+      },
+      {
+        "name": "Overton Park",
+        "type": "pocket park",
+        "distance_m": 350,
+        "address": "2315 NW Overton Street, Portland, OR 97210",
+        "coordinates": { "latitude": 45.5321455, "longitude": -122.6989536 },
+        "description": "Small neighborhood pocket park with benches and green space.",
+        "amenities": ["benches", "green space", "pedestrian access"]
+      },
+      {
+        "name": "Columbia Park",
+        "type": "large park",
+        "distance_m": 1400,
+        "description": "A 152-acre park with walking paths, an off-leash dog area, and sports fields along the Columbia River.",
+        "direction": "north-northeast"
+      },
+      {
+        "name": "Laurelhurst Park",
+        "type": "historic park",
+        "distance_m": 1800,
+        "description": "A historic 26-acre park featuring a pond, horseshoe pits, basketball courts, and a playground.",
+        "address": "SE Cesar E Chavez Blvd, Portland, OR 97215",
+        "coordinates": { "latitude": 45.5211348, "longitude": -122.6268523 }
+      },
+      {
+        "name": "Forest Park",
+        "type": "urban forest",
+        "distance_m": 2400,
+        "description": "One of the largest urban forests in the US at 5,200 acres with extensive hiking trails.",
+        "direction": "north-northwest"
+      }
+    ],
+    "pocket_parks_nearby": [
+      {
+        "name": "Northwest District Pocket Parks",
+        "description": "Several small pocket parks along NW Lovejoy and NW Northrup streets with benches and pedestrian paths."
+      }
+    ],
+    "data_sources": ["OpenStreetMap (Data © OpenStreetMap contributors, ODbL 1.0)"],
+    "analysis_date": "2025-07-15",
+    "analysis_radius_meters": 1000
+  }
+}
