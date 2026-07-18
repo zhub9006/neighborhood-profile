@@ -89,8 +89,10 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 - LA Fitness, YogaSix, Portland Aikikai, Hyatt Training, Orangetheory Fitness, Kiska, Industrial Strength Gym, Cyclepath West (bike shop, 911m)
 
 ### Parks & Recreation
-- **Nob Hill Nature Park** in the Nob Hill enclave
-- Playground and picnic areas within 1km
+- **Nob Hill Nature Park** in the Nob Hill enclave (500-600m)
+- **Overton Park** — pocket park at 350m
+- Columbia Park — 152-acre park at 1.4km
+- Laurelhurst Park — historic 26-acre park at 1.8km
 - Northwest District has several small pocket parks along NW Lovejoy and NW Northrup streets
 
 ### Shopping (16 shops within 1km)
@@ -120,13 +122,15 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 
 ## Data Files
 
-This repository contains three data files for the Nob Hill / Northwest District neighborhood:
+This repository contains data files for the Nob Hill / Northwest District neighborhood:
 
 | File | Description |
 |------|-------------|
 | [`data/nob-hill-portland.json`](data/nob-hill-portland.json) | General neighborhood-level data with walkability scores and amenity summaries for the Nob Hill / Northwest District area |
 | [`data/nob-hill-1234-nw-23rd-ave.json`](data/nob-hill-1234-nw-23rd-ave.json) | Address-specific detailed walkability breakdown, transportation, and amenities data for 1234 NW 23rd Avenue |
 | [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info |
+| [`data/nob-hill-amenity-index.json`](data/nob-hill-amenity-index.json) | Comprehensive amenity index for the Nob Hill neighborhood with 1km and 2km counts, cuisine diversity, and nearest amenities |
+| [`data/nob-hill-parks-recreation.json`](data/nob-hill-parks-recreation.json) | Detailed parks and recreation data including trail access, pocket parks, and nearby large parks |
 
 ### Repository Structure
 
@@ -139,7 +143,9 @@ neighborhood-profile/
 ├── data/
 │   ├── nob-hill-portland.json          # General neighborhood data
 │   ├── nob-hill-1234-nw-23rd-ave.json  # Address-specific detailed data
-│   └── nob-hill-1234-nw-23rd-ave-live-contribution.json  # Live contributor data
+│   ├── nob-hill-1234-nw-23rd-ave-live-contribution.json  # Live contributor data
+│   ├── nob-hill-amenity-index.json  [NEW] Comprehensive amenity index
+│   └── nob-hill-parks-recreation.json  [NEW] Parks & recreation detail
 └── issues/
     └── #1                              # Data update tracking
 ```
@@ -148,7 +154,7 @@ neighborhood-profile/
 
 - **Primary:** OpenStreetMap (Data © OpenStreetMap contributors, ODbL 1.0)
 - **Analysis Method:** OSM-based neighborhood scoring via OSRM routing
-- **Data Collection Date:** 2026-07-15
+- **Data Collection Date:** 2026-07-18
 - **Analysis Radius:** 1000 meters
 - **OSM Place ID:** 407060190
 - **OSM Way ID:** 119636244
