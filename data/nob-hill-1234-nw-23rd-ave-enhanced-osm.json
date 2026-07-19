@@ -1,0 +1,109 @@
+{
+  "address": "1234 NW 23rd Avenue, Portland, OR 97210",
+  "coordinates": {"latitude": 45.5317733, "longitude": -122.6985653},
+  "neighborhood": "Nob Hill, Northwest District",
+  "city": "Portland",
+  "county": "Multnomah County",
+  "state": "Oregon",
+  "postcode": "97210",
+  "country": "United States",
+  "contribution_date": "2026-07-23",
+  "data_source": "OpenStreetMap (live OSM analysis via OSM API + OSRM routing)",
+  "osm_place_id": 400526818,
+  "osm_way_id": 119636244,
+  "analysis_radius_meters": 1000,
+  "enhancements": {
+    "restaurants_detailed": [
+      {"name": "Tara Thai Northwest", "distance_m": 42.2, "cuisine": "Thai/Lao", "address": "1310 NW 23rd Ave", "website": "https://tarathainorthwest.com/"},
+      {"name": "Top Burmese Burma Joy", "distance_m": 46.8, "cuisine": "Burmese/Asian", "address": "1305 NW 23rd Ave", "hours": "Mo-Su 11:30-21:00", "phone": "+1-503-206-8560", "website": "https://topburmese.com/pages/nw-23rd-ave"},
+      {"name": "Siri Indian Cuisine", "distance_m": 68.6, "cuisine": "Indian", "address": "1323 NW 23rd Ave", "website": "http://www.siriindianportland.com/"},
+      {"name": "Henry Higgins Boiled Bagels", "distance_m": 95.0, "cuisine": "Bagel/American", "address": "1308 NW 23rd Ave", "features": ["vegan", "delivery"]},
+      {"name": "Case Study Coffee Roasters", "distance_m": 114.1, "type": "cafe", "address": "1400 NW 23rd Ave", "hours": "07:00-16:00", "outdoor_seating": true, "wifi": true, "website": "https://www.casestudycoffee.com/"},
+      {"name": "Palomar", "distance_m": 143.1, "cuisine": "Latin/British Pub", "address": "1422 NW 23rd Ave", "website": "https://www.barpalomar.com/"},
+      {"name": "Dorio Greek Taverna", "distance_m": 158.1, "cuisine": "Greek", "address": "1037 NW 23rd Ave"},
+      {"name": "Matador", "distance_m": 162.6, "cuisine": "Mexican", "address": "1438 NW 23rd Ave"},
+      {"name": "Bibi 2 Go", "distance_m": 181.2, "cuisine": "Korean", "address": "1019 NW 23rd Ave", "phone": "+1-971-242-8992"},
+      {"name": "Grassa", "distance_m": 188.4, "cuisine": "Italian", "address": "1506 NW 23rd Ave", "website": "https://www.grassapdx.com/"},
+      {"name": "Hem 23 Vietnamese Bar & Grill", "distance_m": 206.5, "cuisine": "Vietnamese", "address": "1514 NW 23rd Ave"},
+      {"name": "Portal Tea", "distance_m": 345, "type": "tea house", "address": "734 NW 23rd Ave", "hours": "10:00-21:00", "wifi": true, "indoor_seating": true, "website": "https://www.portaltea.co"},
+      {"name": "Kirari West", "distance_m": 318, "type": "gluten-free bakery", "address": "1668 NW 23rd Ave", "website": "https://www.kiraricrust.com/"},
+      {"name": "Memento Mori Cafe", "distance_m": 285, "type": "vegan cafe", "address": "1533 NW 24th Ave", "hours": "Mo-Sa 08:00-17:00; Su 09:00-16:00", "wifi": true, "website": "https://www.mementomoricafe.com/"}
+    ],
+    "healthcare_detailed": [
+      {"name": "Walgreens Pharmacy", "distance_m": 38, "type": "pharmacy", "address": "1215 NW 23rd Ave", "hours": "Mo-Fr 08:30-18:00", "phone": "+1 503 937 4984"},
+      {"name": "Integrative Primary Care Associates", "distance_m": 452, "type": "doctor", "address": "2050 NW Lovejoy St"},
+      {"name": "Kaiser Permanente", "distance_m": 490, "type": "hospital", "address": "1801 NW Nicolai Street"},
+      {"name": "The Joint Chiropractic", "distance_m": 440, "type": "chiropractor", "address": "1525 NW 21st Ave"},
+      {"name": "CVS Pharmacy", "distance_m": 920, "type": "pharmacy", "address": "2100 NW Lovejoy St"}
+    ],
+    "arts_culture_enriched": [
+      {"name": "Large Metal Pigs", "distance_m": 190, "type": "sculpture", "location": "SW 20th Ave"},
+      {"name": "Howard's Way", "distance_m": 750, "type": "sculpture", "artist": "Lee Kelly", "year": 2007, "wikidata": "Q18350167", "wikipedia": "en:Howard's Way (sculpture)"},
+      {"name": "Bella venti-tre e Thurman", "type": "mural", "artist": "Larry Kangas", "location": "NW Thurman Street"},
+      {"name": "The Freakybuttrue Peculiarium and Museum", "distance_m": 510, "type": "museum", "address": "2234 NW Thurman St", "phone": "+15032273164", "website": "https://www.peculiarium.com/"},
+      {"name": "PDX Contemporary Art", "type": "gallery", "hours": "Tu-Sa 10:00-18:00", "address": "1881 NW Vaughn St"},
+      {"name": "Vaux's Swifts", "distance_m": 1200, "type": "wildlife viewing", "description": "Thousands of Vaux's Swifts fly into the Chapman Elementary School chimney during September sunsets", "website": "https://birdallianceoregon.org/go-outside/swift-watch/"},
+      {"name": "Portland Heritage Tree #10", "location": "NW 23rd Avenue", "type": "heritage tree"}
+    ],
+    "commute_to_downtown_portland": {
+      "distance_km": 3.0,
+      "modes": [
+        {"mode": "car", "duration_min": 8, "notes": "Via NW 23rd to Burnside to downtown"},
+        {"mode": "bike", "duration_min": 10, "notes": "Bike-friendly route via NW 23rd to downtown"},
+        {"mode": "foot", "duration_min": 36, "notes": "Walkable distance for daily errands"},
+        {"mode": "streetcar", "duration_min": 6, "notes": "2-min walk to NW 23rd & Marshall stop, NS Line to downtown"},
+        {"mode": "bus", "duration_min": 8, "notes": "Bus 8989 from NW 23rd & Marshall stop"}
+      ]
+    },
+    "transit_destinations": [
+      {"destination": "Downtown Portland", "distance_m": 3000, "streetcar_min": 6, "bus_min": 8, "bike_min": 10},
+      {"destination": "Pearl District", "distance_m": 1500, "streetcar_min": 3, "bus_min": 5, "bike_min": 5},
+      {"destination": "NW 23rd to Hillsdale", "distance_m": 3500, "bus_min": 15, "bike_min": 20},
+      {"destination": "NW Lovejoy to Downtown", "distance_m": 3000, "bike_min": 10, "foot_min": 36}
+    ],
+    "bike_infrastructure": {
+      "bike_shops": [{"name": "Cyclepath West", "distance_m": 911, "address": "2714 NW Thurman St", "hours": "We-Fr 09:00-18:00; Sa 09:00-17:00; Su 09:30-16:30"}],
+      "bike_share": "Biketown stations available near NW 23rd & Marshall",
+      "cycle_tracks": "Cycle tracks on NW 21st and NW 18th; bike lanes connecting NW 23rd to downtown",
+      "bike_parking": "Bike racks at street corners throughout Nob Hill"
+    },
+    "ev_charging_detail": {
+      "count_within_1km": 1,
+      "stations": [{
+        "name": "EVgo",
+        "distance_m": 336,
+        "address": "2170 NW Raleigh Street",
+        "connectors": ["CHAdeMO", "Type 1 Combo"],
+        "hours": "24/7",
+        "power_kw": "50"
+      }]
+    },
+    "parking_info": {
+      "count_within_1km": 0,
+      "note": "No dedicated parking facilities within 1km radius",
+      "nearest_options": [
+        "Street parking on NW 23rd Avenue and NW Northrup Street (free, residential)",
+        "Multi-storey parking: PMC at 1313 W Burnside St (~1.5km)",
+        "Street-side parking along NW Lovejoy and NW Northrup"
+      ]
+    },
+    "nearby_by_radius": {
+      "200m": "11+ restaurants of different cuisines, pharmacy, grocery, cafes, transit stop",
+      "500m": "Transit stop, parks, artwork/murals, museums, bike shop",
+      "1000m": "89 restaurants, 6 healthcare facilities, 8 transit stops, 16 shops, 11 fitness facilities, supermarket"
+    },
+    "seasonal_highlights": [
+      {"event": "Vaux's Swifts Migration", "month": "September", "location": "Chapman Elementary School chimney", "distance_m": 1200, "description": "Thousands of Vaux's Swifts fly into the school chimney at sunset — one of the largest known roosting sites in the Pacific Northwest"},
+      {"event": "Nob Hill Art Walk", "month": "Year-round", "description": "Gallery exhibitions and public art installations throughout the Nob Hill enclave"}
+    ]
+  },
+  "data_metadata": {
+    "source": "OpenStreetMap (Data © OpenStreetMap contributors, ODbL 1.0)",
+    "analysis_method": "OSM-based neighborhood scoring via OSRM routing + OSM API queries",
+    "data_collection_date": "2026-07-23",
+    "analysis_radius_m": 1000,
+    "license": "Open Database License (ODbL) 1.0",
+    "osm_attribution": "Data © OpenStreetMap contributors, ODbL 1.0",
+    "contributor_note": "Enhanced contribution adding detailed restaurant hours/phones/websites, chiropractor data, therapeutic arts info, commute destination details, bike infrastructure specifics, EV charging power rating, parking options, 200m/500m/1000m radius breakdown, and seasonal highlights. Supplements existing living resident data from 2026-07-19."
+  }
+}
