@@ -41,6 +41,7 @@ This neighborhood in Portland's Nob Hill area of the Northwest District enjoys e
 - **Strong fitness access** — 11+ sports/fitness facilities including YogaSix, LA Fitness, Portland Aikikai
 - **Bicycle culture** — Cyclepath West (bike shop) within 900m; Portland's bike-friendly infrastructure
 - **8 transit stops** within 1km on NW 23rd Avenue and W Burnside Street
+- **EV charging** — EVgo station 336m away with 24/7 access
 
 ## Amenities Detail
 
@@ -94,7 +95,7 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 - Northwest District has several small pocket parks along NW Lovejoy and NW Northrup streets
 
 ### Shopping (16 shops within 1km)
-- Zupan's Markets, Ken's Artisan Bakery (338 NW 21st Ave), Title Nine (sportswear, 242m), Lovejoy Grocery (convenience, 173m)
+- Zupan's Markets, Ken's Artisan Bakery (338 NW 21st Ave), Title Nine (sportswear, 242m), Lovejo Grocery (convenience, 173m)
 
 ### Education
 - **Bridges Middle School** — 816m at 1638 NW Overton Street
@@ -120,13 +121,14 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 
 ## Data Files
 
-This repository contains three data files for the Nob Hill / Northwest District neighborhood:
+This repository contains four data files for the Nob Hill / Northwest District neighborhood:
 
 | File | Description |
 |------|-------------|
 | [`data/nob-hill-portland.json`](data/nob-hill-portland.json) | General neighborhood-level data with walkability scores and amenity summaries for the Nob Hill / Northwest District area |
-| [`data/nob-hill-1234-nw-23rd-ave.json`](data/nob-hill-1234-nw-23rd-ave.json) | Address-specific detailed walkability breakdown, transportation, and amenities data for 1234 NW 23rd Avenue |
-| [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info |
+| [`data/nob-hill-1234-nw-23rd-ave.json`](data/nob-hill-1234-nw-23rd-ave.json) | Address-specific detailed walkability breakdown, transportation, and amenities data for 1234 NW 23rd Avenue (enriched 2026-07-22) |
+| [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info (enriched 2026-07-22) |
+| [`data/nob-hill-1234-nw-23rd-ave-area-profile.json`](data/nob-hill-1234-nw-23rd-ave-area-profile.json) | Supplementary area profile — walkability, transit, bicycle infrastructure, parks, and community services breakdown |
 
 ### Repository Structure
 
@@ -139,7 +141,8 @@ neighborhood-profile/
 ├── data/
 │   ├── nob-hill-portland.json          # General neighborhood data
 │   ├── nob-hill-1234-nw-23rd-ave.json  # Address-specific detailed data
-│   └── nob-hill-1234-nw-23rd-ave-live-contribution.json  # Live contributor data
+│   ├── nob-hill-1234-nw-23rd-ave-live-contribution.json  # Live contributor data
+│   └── nob-hill-1234-nw-23rd-ave-area-profile.json  # Supplementary area profile
 └── issues/
     └── #1                              # Data update tracking
 ```
@@ -148,9 +151,9 @@ neighborhood-profile/
 
 - **Primary:** OpenStreetMap (Data © OpenStreetMap contributors, ODbL 1.0)
 - **Analysis Method:** OSM-based neighborhood scoring via OSRM routing
-- **Data Collection Date:** 2026-07-15
+- **Data Collection Date:** 2026-07-22 (previously 2026-07-15)
 - **Analysis Radius:** 1000 meters
-- **OSM Place ID:** 407060190
+- **OSM Place ID:** 400526818
 - **OSM Way ID:** 119636244
 
 ## How to Contribute
