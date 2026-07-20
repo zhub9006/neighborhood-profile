@@ -1,4 +1,4 @@
-# Neighborhood Profile: Nob Hill / Northwest District, Portland, OR
+# Neighborhood Profile: Nob Hill / Northwest District, Portland, OR 97210
 
 Open-source neighborhood profile with walkability scores, nearby amenities, and community data compiled from OpenStreetMap (OSM).
 
@@ -8,6 +8,17 @@ Open-source neighborhood profile with walkability scores, nearby amenities, and 
 **Neighborhood:** Nob Hill, Northwest District  
 **City/County:** Portland, Multnomah County, Oregon  
 **Coordinates:** 45.5317783, -122.6985663
+
+## Data Files
+
+| File | Description |
+|------|-------------|
+| [`data/nob-hill-portland.json`](data/nob-hill-portland.json) | General neighborhood-level data with walkability scores and amenity summaries for the Nob Hill / Northwest District area |
+| [`data/nob-hill-1234-nw-23rd-ave.json`](data/nob-hill-1234-nw-23rd-ave.json) | Address-specific detailed walkability breakdown, transportation, and amenities data for 1234 NW 23rd Avenue (enriched 2026-07-22) |
+| [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info (enriched 2026-07-22) |
+| [`data/nob-hill-1234-nw-23rd-ave-area-profile.json`](data/nob-hill-1234-nw-23rd-ave-area-profile.json) | Supplementary area profile — walkability, transit, bicycle infrastructure, parks, and community services breakdown |
+| [`data/nob-hill-1234-nw-23rd-ave-walkability-audit.json`](data/nob-hill-1234-nw-23rd-ave-walkability-audit.json) | Verified walkability audit (2026-07-22) with pedestrian infrastructure assessment, transit connectivity details, commute analysis, and OSM-verified amenity catalog |
+| [`data/nob-hill-1234-nw-23rd-ave-supplement.json`](data/nob-hill-1234-nw-23rd-ave-supplement.json) | Live contributor supplement — 4 new cafes, parking enhancements, bike infrastructure, art/culture, and community highlights (contributed 2026-07-22) |
 
 ## Walkability Score
 
@@ -42,6 +53,8 @@ This neighborhood in Portland's Nob Hill area of the Northwest District enjoys e
 - **Bicycle culture** — Cyclepath West (bike shop) within 900m; Portland's bike-friendly infrastructure
 - **8 transit stops** within 1km on NW 23rd Avenue and W Burnside Street
 - **EV charging** — EVgo station 336m away with 24/7 access
+- **4 new cafes** — Brewline Cafe & Bar, Harlow Cafe + Juice Bar, The Great North, Food in Bloom Catering (live contributor supplement)
+- **Community highlights** — Heritage Tree #10, Vaux's Swifts at Chapman Elementary (September migration), Howard's Way sculpture, PDX Contemporary Art gallery
 
 ## Amenities Detail
 
@@ -70,6 +83,10 @@ This neighborhood in Portland's Nob Hill area of the Northwest District enjoys e
 - **Memento Mori Cafe** — 285m (vegan cafe)
 - **Case Study Coffee Roasters** — 114m (coffee, outdoor seating, wifi)
 - **Starbucks** — 919m at 2328 W Burnside Street
+- **Brewline Cafe & Bar** — 680m (cafe/bar, outdoor seating)
+- **Harlow Cafe + Juice Bar** — 480m (juice bar)
+- **The Great North** — 720m (cafe)
+- **Food in Bloom Catering** — 950m (caterer)
 
 ### Healthcare (6 found, avg distance 488m)
 - **Walgreens Pharmacy** — 38m at 1215 NW 23rd Ave (open Mo-Fr 8:30am-6pm)
@@ -118,36 +135,6 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 - Henry Higgins Boiled Bagels: 95m
 - NW 23rd & Marshall St: 128m (nearest transit)
 - Lovejo Grocery: 173m
-
-## Data Files
-
-This repository contains five data files for the Nob Hill / Northwest District neighborhood:
-
-| File | Description |
-|------|-------------|
-| [`data/nob-hill-portland.json`](data/nob-hill-portland.json) | General neighborhood-level data with walkability scores and amenity summaries for the Nob Hill / Northwest District area |
-| [`data/nob-hill-1234-nw-23rd-ave.json`](data/nob-hill-1234-nw-23rd-ave.json) | Address-specific detailed walkability breakdown, transportation, and amenities data for 1234 NW 23rd Avenue (enriched 2026-07-22) |
-| [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info (enriched 2026-07-22) |
-| [`data/nob-hill-1234-nw-23rd-ave-area-profile.json`](data/nob-hill-1234-nw-23rd-ave-area-profile.json) | Supplementary area profile — walkability, transit, bicycle infrastructure, parks, and community services breakdown |
-| [`data/nob-hill-1234-nw-23rd-ave-walkability-audit.json`](data/nob-hill-1234-nw-23rd-ave-walkability-audit.json) | Verified walkability audit (2026-07-22) with pedestrian infrastructure assessment, transit connectivity details, commute analysis, and OSM-verified amenity catalog |
-
-### Repository Structure
-
-```
-neighborhood-profile/
-├── README.md
-├── CONTRIBUTING.md
-├── docs/
-│   └── methodology.md                  # Walkability scoring methodology
-├── data/
-│   ├── nob-hill-portland.json          # General neighborhood data
-│   ├── nob-hill-1234-nw-23rd-ave.json  # Address-specific detailed data
-│   ├── nob-hill-1234-nw-23rd-ave-live-contribution.json  # Live contributor data
-│   ├── nob-hill-1234-nw-23rd-ave-area-profile.json  # Supplementary area profile
-│   └── nob-hill-1234-nw-23rd-ave-walkability-audit.json  # Verified walkability audit
-└── issues/
-    └── #1                              # Data update tracking
-```
 
 ## Data Sources
 
