@@ -121,7 +121,7 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 
 ## Data Files
 
-This repository contains four data files for the Nob Hill / Northwest District neighborhood:
+This repository contains five data files for the Nob Hill / Northwest District neighborhood:
 
 | File | Description |
 |------|-------------|
@@ -129,6 +129,7 @@ This repository contains four data files for the Nob Hill / Northwest District n
 | [`data/nob-hill-1234-nw-23rd-ave.json`](data/nob-hill-1234-nw-23rd-ave.json) | Address-specific detailed walkability breakdown, transportation, and amenities data for 1234 NW 23rd Avenue (enriched 2026-07-22) |
 | [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info (enriched 2026-07-22) |
 | [`data/nob-hill-1234-nw-23rd-ave-area-profile.json`](data/nob-hill-1234-nw-23rd-ave-area-profile.json) | Supplementary area profile — walkability, transit, bicycle infrastructure, parks, and community services breakdown |
+| [`data/nob-hill-1234-nw-23rd-ave-walkability-audit.json`](data/nob-hill-1234-nw-23rd-ave-walkability-audit.json) | Verified walkability audit (2026-07-22) with pedestrian infrastructure assessment, transit connectivity details, commute analysis, and OSM-verified amenity catalog |
 
 ### Repository Structure
 
@@ -142,7 +143,8 @@ neighborhood-profile/
 │   ├── nob-hill-portland.json          # General neighborhood data
 │   ├── nob-hill-1234-nw-23rd-ave.json  # Address-specific detailed data
 │   ├── nob-hill-1234-nw-23rd-ave-live-contribution.json  # Live contributor data
-│   └── nob-hill-1234-nw-23rd-ave-area-profile.json  # Supplementary area profile
+│   ├── nob-hill-1234-nw-23rd-ave-area-profile.json  # Supplementary area profile
+│   └── nob-hill-1234-nw-23rd-ave-walkability-audit.json  # Verified walkability audit
 └── issues/
     └── #1                              # Data update tracking
 ```
