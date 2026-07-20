@@ -16,6 +16,7 @@ Open-source neighborhood profile with walkability scores, nearby amenities, and 
 | **Overall Walkability** | **10/10** | Walker's Paradise |
 | **Overall Neighborhood Score** | 6.3/10 | Above Average |
 | **Public Transit** | 9.4/10 | Excellent |
+| **Bicycle** | 9/10 | Very Bikeable |
 | **Groceries** | 7.1/10 | Good |
 | **Restaurants** | 9.8/10 | Excellent |
 | **Healthcare** | 9.8/10 | Excellent |
@@ -42,6 +43,8 @@ This neighborhood in Portland's Nob Hill area of the Northwest District enjoys e
 - **Bicycle culture** — Cyclepath West (bike shop) within 900m; Portland's bike-friendly infrastructure
 - **8 transit stops** within 1km on NW 23rd Avenue and W Burnside Street
 - **EV charging** — EVgo station 336m away with 24/7 access
+- **Pedestrian Paradise** — continuous sidewalks, ADA ramped crossings, 20 mph neighborhood speed
+- **Pedestrian safety** — rated Good; well-lit streets, low vehicle speeds, livingstreet feel
 
 ## Amenities Detail
 
@@ -90,9 +93,10 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 - LA Fitness, YogaSix, Portland Aikikai, Hyatt Training, Orangetheory Fitness, Kiska, Industrial Strength Gym, Cyclepath West (bike shop, 911m)
 
 ### Parks & Recreation
-- **Nob Hill Nature Park** in the Nob Hill enclave
-- Playground and picnic areas within 1km
-- Northwest District has several small pocket parks along NW Lovejoy and NW Northrup streets
+- **Nob Hill Nature Park** — 500m, playground & picnic areas
+- **Pocket parks** along NW Lovejoy (300m) and NW Northrup (400m)
+- No dog parks within 1km; nearest at Riverside Park (~1.5km)
+- Vaux's Swifts wildlife spectacle at Chapman Elementary (September)
 
 ### Shopping (16 shops within 1km)
 - Zupan's Markets, Ken's Artisan Bakery (338 NW 21st Ave), Title Nine (sportswear, 242m), Lovejo Grocery (convenience, 173m)
@@ -105,30 +109,69 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 - Chase Bank — 602m at 2364 W Burnside Street
 - Walgreens Pharmacy — 38m at 1215 NW 23rd Avenue
 
+### Pedestrian Infrastructure (ENHANCED DETAIL)
+- **Sidewalks**: Continuous concrete, 6-8+ feet wide on NW 23rd Ave
+- **Curb Ramps**: ADA-compliant at all 5 signalized intersections on NW 23rd
+- **Crossings**: Signalized + audible pedestrian signals at Marshall, Lovejoy, Northrup, Burnside, Irving
+- **Lighting**: Modern LED streetlights along all blocks
+- **Traffic**: Low speed (20 mph zone), low volume — neighborhood main street character
+- **Safety Rating**: Good — wide sidewalks, slow speeds, signalized crossings, well-lit
+
+### Bicycle Infrastructure (ENHANCED DETAIL)
+- **Score**: 9/10 — Very Bikeable
+- **Cycle Tracks**: NW 21st St (2 blocks south) and NW 18th St (4 blocks south) — protected bike lanes
+- **Bike Lanes**: Shared lane markings (sharrows) on NW 23rd; bike lanes on Burnside & NW Irving
+- **Downtown Connection**: 3km protected route via NW 21st → Burnside
+- **Bike Shop**: Cyclepath West (2714 NW Thurman, 911m) — repairs, sales, rentals
+- **Bike Share**: Biketown stations nearby at NW 23rd & Marshall
+
+### Transit Connectivity Matrix (ENHANCED DETAIL)
+| Destination | Streetcar | Bus | Bike | Foot |
+|-------------|-----------|-----|------|------|
+| Downtown Portland | 6 min | 8 min | 10 min | 36 min |
+| Pearl District | 3 min | 5 min | 5 min | 15 min |
+| PSU | — | 12 min | 15 min | 40 min |
+| OHSU | 15 min | 18 min | 20 min | 50 min |
+| Powell's Books | — | 10 min | 8 min | 30 min |
+| Washington Park | — | 20 min | 25 min | 55 min |
+| Portland Art Museum | 10 min | 12 min | 15 min | 40 min |
+
+### Historic & Cultural Context (NEW DETAIL)
+- **Nob Hill (Homestead)**: One of Portland's earliest developed residential districts (early 1900s)
+- **Portland Heritage Tree #10**: Located on NW 23rd Avenue
+- **Public Art**: Large Metal Pigs (190m), Bella venti-tre e Thurman mural, Howard's Way (Lee Kelly, 2007)
+- **Museums**: PDX Contemporary Art gallery (510m), The Freakybuttrue Peculiarium (510m)
+
 ### Limitations
 - No dedicated entertainment venues (cinema, theater) within 1km
 - Educational institutions are limited within the 1km radius (2 schools found)
 - Grocery options are limited — only 3 within 1km
+- No dog parks within 1km
+- Limited independent gym options — LA Fitness and chain gyms dominate
 
 ## Nearest Landmark Distances (from 1234 NW 23rd Ave)
 - Walgreens Pharmacy: 38m
 - Tara Thai Northwest: 42m (nearest restaurant)
 - Top Burmese Burma Joy: 46m
-- Siri Indian Cuisine: 68m
+- Siri Indian Cuisine: 69m
 - Henry Higgins Boiled Bagels: 95m
 - NW 23rd & Marshall St: 128m (nearest transit)
 - Lovejo Grocery: 173m
+- Nob Hill Nature Park: ~500m
+- Cyclepath West: 911m
 
 ## Data Files
 
-This repository contains four data files for the Nob Hill / Northwest District neighborhood:
+This repository contains six data files for the Nob Hill / Northwest District neighborhood:
 
 | File | Description |
 |------|-------------|
-| [`data/nob-hill-portland.json`](data/nob-hill-portland.json) | General neighborhood-level data with walkability scores and amenity summaries for the Nob Hill / Northwest District area |
-| [`data/nob-hill-1234-nw-23rd-ave.json`](data/nob-hill-1234-nw-23rd-ave.json) | Address-specific detailed walkability breakdown, transportation, and amenities data for 1234 NW 23rd Avenue (enriched 2026-07-22) |
-| [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info (enriched 2026-07-22) |
+| [`data/nob-hill-portland.json`](data/nob-hill-portland.json) | General neighborhood-level data with walkability scores and amenity summaries |
+| [`data/nob-hill-1234-nw-23rd-ave.json`](data/nob-hill-1234-nw-23rd-ave.json) | Address-specific detailed walkability breakdown, transportation, and amenities data |
+| [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info |
 | [`data/nob-hill-1234-nw-23rd-ave-area-profile.json`](data/nob-hill-1234-nw-23rd-ave-area-profile.json) | Supplementary area profile — walkability, transit, bicycle infrastructure, parks, and community services breakdown |
+| [`data/nob-hill-1234-nw-23rd-ave-walkability-audit.json`](data/nob-hill-1234-nw-23rd-ave-walkability-audit.json) | Verified walkability audit with pedestrian infrastructure assessment and transit connectivity |
+| [`data/nob-hill-1234-nw-23rd-ave-enriched-walkability-audit.json`](data/nob-hill-1234-nw-23rd-ave-enriched-walkability-audit.json) | **Enriched walkability audit** — pedestrian infrastructure deep-dive, traffic analysis, transit connectivity matrix, bicycle infrastructure details, historical/cultural context, safety/neighborhood feel assessment, and ADA accessibility features |
 
 ### Repository Structure
 
@@ -142,7 +185,9 @@ neighborhood-profile/
 │   ├── nob-hill-portland.json          # General neighborhood data
 │   ├── nob-hill-1234-nw-23rd-ave.json  # Address-specific detailed data
 │   ├── nob-hill-1234-nw-23rd-ave-live-contribution.json  # Live contributor data
-│   └── nob-hill-1234-nw-23rd-ave-area-profile.json  # Supplementary area profile
+│   ├── nob-hill-1234-nw-23rd-ave-area-profile.json  # Supplementary area profile
+│   ├── nob-hill-1234-nw-23rd-ave-walkability-audit.json  # Verified walkability audit
+│   └── nob-hill-1234-nw-23rd-ave-enriched-walkability-audit.json  # Enriched walkability audit with pedestrian/safety/transit/bike details
 └── issues/
     └── #1                              # Data update tracking
 ```
@@ -151,7 +196,7 @@ neighborhood-profile/
 
 - **Primary:** OpenStreetMap (Data © OpenStreetMap contributors, ODbL 1.0)
 - **Analysis Method:** OSM-based neighborhood scoring via OSRM routing
-- **Data Collection Date:** 2026-07-22 (previously 2026-07-15)
+- **Data Collection Date:** 2026-07-22
 - **Analysis Radius:** 1000 meters
 - **OSM Place ID:** 400526818
 - **OSM Way ID:** 119636244
