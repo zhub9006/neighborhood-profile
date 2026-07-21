@@ -1,0 +1,125 @@
+{
+  "enrichment_metadata": {
+    "enrichment_date": "2026-07-23",
+    "source_repo": "zhub9006/neighborhood-profile",
+    "original_analysis_date": "2026-07-22",
+    "contributor_note": "Enriched profile with detailed venue-level data, commute analysis, parking, and seasonal highlights for 1234 NW 23rd Avenue, Nob Hill / Northwest District, Portland, OR 97210"
+  },
+  "location": {
+    "address": "1234 NW 23rd Avenue, Portland, OR 97210",
+    "neighborhood": "Nob Hill, Northwest District",
+    "city": "Portland",
+    "county": "Multnomah County",
+    "state": "Oregon",
+    "postcode": "97210",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 45.5317733,
+      "longitude": -122.6985653
+    },
+    "osm_place_id": 400526818,
+    "osm_way_id": 119636244
+  },
+  "walkability_score": 10,
+  "walkability_rating": "Walker's Paradise",
+  "pedestrian_infrastructure": {
+    "sidewalk_coverage": "Excellent",
+    "sidewalk_continuity": "Continuous sidewalks on all streets in the neighborhood",
+    "crosswalks": "Signalized at all major intersections",
+    "street_trees": "Mature canopy along most blocks; Portland Heritage Tree #10 on NW 23rd Avenue",
+    "curb_ramps": "ADA-compliant curb ramps at all signaled intersections",
+    "pedestrian_safety": "Low traffic volumes; residential character with slow speeds"
+  },
+  "bicycle_infrastructure": {
+    "bike_score": 9,
+    "bike_rating": "Very Bikeable",
+    "bike_lanes": "Dedicated bike lanes on NW 23rd Avenue and NW Lovejoy Street",
+    "bike_shops": [
+      {"name": "Cyclepath West", "distance_m": 911, "address": "2714 NW Thurman St"}
+    ],
+    "bike_share": {"count": 1, "nearest_distance_m": 911, "service": "Biketown PDX"}
+  },
+  "detailed_amenities": {
+    "cafes_within_1km": [
+      {"name": "Case Study Coffee Roasters", "distance_m": 114, "address": "1400 NW 23rd Ave", "features": ["outdoor_seating", "wifi"], "hours": "07:00-16:00"},
+      {"name": "Memento Mori Cafe", "distance_m": 285, "address": "1533 NW 24th Ave", "features": ["vegan", "wifi", "outdoor_seating"], "hours": "Mo-Sa 08:00-17:00; Su 09:00-16:00"},
+      {"name": "Portal Tea", "distance_m": 345, "address": "734 NW 23rd Ave", "features": ["tea_house", "wifi", "indoor_seating"], "hours": "10:00-21:00"},
+      {"name": "Kirari West", "distance_m": 318, "address": "1668 NW 23rd Ave", "features": ["gluten_free_bakery"], "hours": "Mo-Sa 07:00-18:00; Su 08:00-17:00"},
+      {"name": "Starbucks", "distance_m": 919, "address": "2328 W Burnside St", "hours": "05:00-21:00"},
+      {"name": "Brewline Cafe & Bar", "distance_m": 620, "address": "2010 NW Front Ave", "features": ["bar", "outdoor_seating"], "hours": "07:00-20:00"},
+      {"name": "Harlow Cafe + Juice Bar", "distance_m": 580, "address": "505 NW 23rd Ave", "features": ["juice_bar"], "hours": "Mo-Su 09:00-20:00"},
+      {"name": "The Great North", "distance_m": 720, "address": "1951 W Burnside St", "hours": "Mo-Fr 06:00-18:00; Sa,Su 07:00-18:00"}
+    ],
+    "restaurants_detailed_sample": [
+      {"name": "Tara Thai Northwest", "distance_m": 42, "cuisine": "Thai/Lao", "address": "1310 NW 23rd Ave"},
+      {"name": "Top Burmese Burma Joy", "distance_m": 47, "cuisine": "Burmese/Asian", "address": "1305 NW 23rd Ave", "hours": "Mo-Su 11:30-21:00", "phone": "+1-503-206-8560"},
+      {"name": "Siri Indian Cuisine", "distance_m": 69, "cuisine": "Indian", "address": "1323 NW 23rd Ave", "website": "siriindianportland.com"},
+      {"name": "Henry Higgins Boiled Bagels", "distance_m": 95, "cuisine": "Bagel/American", "address": "1308 NW 23rd Ave"},
+      {"name": "Pepino's", "distance_m": 98, "cuisine": "Mexican", "address": "914 NW 23rd Ave"},
+      {"name": "Case Study Coffee Roasters", "distance_m": 114, "cuisine": "Coffee Shop", "address": "1400 NW 23rd Ave"},
+      {"name": "Palomar", "distance_m": 143, "cuisine": "Latin/British Pub", "address": "1422 NW 23rd Ave", "website": "barpalomar.com"},
+      {"name": "Dorio Greek Taverna", "distance_m": 158, "cuisine": "Greek", "address": "1037 NW 23rd Ave"},
+      {"name": "Matador", "distance_m": 163, "cuisine": "Mexican", "address": "1438 NW 23rd Ave"},
+      {"name": "Grassa", "distance_m": 188, "cuisine": "Italian", "address": "1506 NW 23rd Ave", "website": "grassapdx.com"},
+      {"name": "Bibi 2 Go", "distance_m": 181, "cuisine": "Korean", "address": "1019 NW 23rd Ave"},
+      {"name": "Hem 23 Vietnamese Bar & Grill", "distance_m": 207, "cuisine": "Vietnamese", "address": "1514 NW 23rd Ave", "website": "hem23.com"},
+      {"name": "Caffe Umbria", "distance_m": 650, "cuisine": "Coffee Shop", "address": "NW 23rd Ave"},
+      {"name": "Nossa Familia Coffee", "distance_m": 450, "cuisine": "Coffee Shop", "address": "NW 23rd Ave area"}
+    ],
+    "shopping_detailed": [
+      {"name": "Lovejoy Grocery", "distance_m": 173, "type": "convenience", "address": "1025 NW 23rd Ave"},
+      {"name": "Natural Mart #3", "distance_m": 876, "type": "convenience", "address": "522 NW 19th Ave", "hours": "Mo-Su 08:00-23:00; Su 09:00-22:00"},
+      {"name": "Zupan's Market", "distance_m": 955, "type": "supermarket", "address": "2340 W Burnside St", "hours": "Mo-Su 06:00-22:00"},
+      {"name": "Ken's Artisan Bakery", "distance_m": 338, "address": "338 NW 21st Ave"},
+      {"name": "Title Nine", "distance_m": 242, "type": "sportswear", "address": "235 NW 21st Ave"},
+      {"name": "St. Honoré bakery", "distance_m": 700, "address": "2335 NW Thurman St"},
+      {"name": "Grand Central Bakery", "distance_m": 600, "address": "2249 NW York St"},
+      {"name": "Cyclepath West", "distance_m": 911, "type": "bike_shop", "address": "2714 NW Thurman St"}
+    ],
+    "healthcare_detailed": [
+      {"name": "Walgreens Pharmacy", "distance_m": 38, "type": "pharmacy", "address": "1215 NW 23rd Ave", "phone": "+1 503 937 4984", "hours": "Mo-Fr 08:30-18:00"},
+      {"name": "Integrative Primary Care Associates", "distance_m": 452, "type": "doctor", "address": "2050 NW Lovejoy St", "phone": "+1-503-227-0350"},
+      {"name": "Kaiser Permanente", "distance_m": 490, "type": "hospital/clinic", "address": "1801 NW Nicolai St"},
+      {"name": "Walgreens Pharmacy (Burnside)", "distance_m": 918, "type": "pharmacy", "address": "2103 W Burnside St", "hours": "Mo-Fr 08:00-22:00; Sa 09:00-18:00; Su 10:00-18:00"},
+      {"name": "Fred Meyer Pharmacy", "distance_m": 923, "type": "pharmacy", "address": "100 NW 20th Place", "hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00; Su 10:00-17:00"},
+      {"name": "Portland Dermatology Clinic", "distance_m": 985, "type": "dermatology", "address": "1414 NW Northrup St"}
+    ],
+    "art_culture_entertainment": [
+      {"name": "Large Metal Pigs", "distance_m": 190, "type": "sculpture", "description": "Iconic public art installation"},
+      {"name": "Bella venti-tre e Thurman", "type": "mural", "artist": "Larry Kangas", "description": "Neighborhood mural"},
+      {"name": "Howard's Way", "type": "sculpture", "artist": "Lee Kelly", "year": 2007, "description": "Public sculpture in neighborhood park"},
+      {"name": "The Freakybuttrue Peculiarium and Museum", "distance_m": 510, "type": "museum", "address": "2234 NW Thurman St"},
+      {"name": "PDX Contemporary Art", "type": "gallery", "hours": "Tu-Sa 10:00-18:00", "address": "1881 NW Vaughn St"}
+    ],
+    "ev_charging": [
+      {"name": "EVgo", "distance_m": 336, "connectors": ["CHAdeMO", "Type 1 Combo"], "hours": "24/7", "address": "2170 NW Raleigh St"}
+    ],
+    "parking": [
+      {"type": "street_parking", "availability": "Limited; residential permit zones"},
+      {"type": "parking_lot", "distance_m": 800, "location": "Near NW 23rd & Lovejoy"}
+    ]
+  },
+  "commute_to_downtown_portland": {
+    "distance_km": 3.0,
+    "modes": {
+      "car": {"duration_min": 8, "distance_km": 3.0},
+      "bike": {"duration_min": 10, "distance_km": 3.0},
+      "foot": {"duration_min": 36, "distance_km": 3.0},
+      "transit": {"duration_min": 15, "routes": ["Portland Streetcar NS Line -> Transfer to Bus/BMAX"]}
+    }
+  },
+  "seasonal_highlights": [
+    {"name": "Vaux's Swifts", "season": "September", "description": "Thousands of Vaux's Swifts roost at Chapman Elementary chimney — one of the largest migratory bird gatherings in North America", "distance_km": 1.5}
+  ],
+  "emergency_services": {
+    "fire_stations": [{"name": "Portland Fire Station #1", "distance_m": 3500}],
+    "police": [{"name": "Portland Police Bureau — North Precinct", "distance_m": 4200}]
+  },
+  "data_sources": {
+    "primary": "OpenStreetMap (Data © OpenStreetMap contributors, ODbL 1.0)",
+    "analysis_method": "OSM-based neighborhood scoring via OSRM routing + area exploration + amenity proximity analysis",
+    "data_collection_date": "2026-07-23",
+    "analysis_radius_m": 1000,
+    "license": "Open Database License (ODbL) 1.0"
+  }
+}
