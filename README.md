@@ -121,7 +121,7 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 
 ## Data Files
 
-This repository contains five data files for the Nob Hill / Northwest District neighborhood:
+This repository contains data files for the Nob Hill / Northwest District neighborhood. The following files are available:
 
 | File | Description |
 |------|-------------|
@@ -130,6 +130,7 @@ This repository contains five data files for the Nob Hill / Northwest District n
 | [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info (enriched 2026-07-22) |
 | [`data/nob-hill-1234-nw-23rd-ave-area-profile.json`](data/nob-hill-1234-nw-23rd-ave-area-profile.json) | Supplementary area profile — walkability, transit, bicycle infrastructure, parks, and community services breakdown |
 | [`data/nob-hill-1234-nw-23rd-ave-walkability-audit.json`](data/nob-hill-1234-nw-23rd-ave-walkability-audit.json) | Verified walkability audit (2026-07-22) with pedestrian infrastructure assessment, transit connectivity details, commute analysis, and OSM-verified amenity catalog |
+| [`data/nob-hill-1234-nw-23rd-ave-independently-verified.json`](data/nob-hill-1234-nw-23rd-ave-independently-verified.json) | **Independently verified** neighborhood data (2026-07-23) with enriched amenity detail including artwork/culture, bakeries, parks, leisure facilities, and updated OSM records |
 
 ### Repository Structure
 
@@ -144,7 +145,8 @@ neighborhood-profile/
 │   ├── nob-hill-1234-nw-23rd-ave.json  # Address-specific detailed data
 │   ├── nob-hill-1234-nw-23rd-ave-live-contribution.json  # Live contributor data
 │   ├── nob-hill-1234-nw-23rd-ave-area-profile.json  # Supplementary area profile
-│   └── nob-hill-1234-nw-23rd-ave-walkability-audit.json  # Verified walkability audit
+│   ├── nob-hill-1234-nw-23rd-ave-walkability-audit.json  # Verified walkability audit
+│   └── nob-hill-1234-nw-23rd-ave-independently-verified.json  # Independent verification (2026-07-23)
 └── issues/
     └── #1                              # Data update tracking
 ```
@@ -153,9 +155,9 @@ neighborhood-profile/
 
 - **Primary:** OpenStreetMap (Data © OpenStreetMap contributors, ODbL 1.0)
 - **Analysis Method:** OSM-based neighborhood scoring via OSRM routing
-- **Data Collection Date:** 2026-07-22 (previously 2026-07-15)
+- **Data Collection Date:** 2026-07-23 (independently verified, previously 2026-07-22)
 - **Analysis Radius:** 1000 meters
-- **OSM Place ID:** 400526818
+- **OSM Place ID:** 402844715
 - **OSM Way ID:** 119636244
 
 ## How to Contribute
