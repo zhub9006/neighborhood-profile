@@ -14,7 +14,7 @@ Open-source neighborhood profile with walkability scores, nearby amenities, and 
 | Metric | Score | Rating |
 |--------|-------|--------|
 | **Overall Walkability** | **10/10** | Walker's Paradise |
-| **Overall Neighborhood Score** | 6.3/10 | Above Average |
+| **Overall Neighborhood Score** | 7.0/10 | Good |
 | **Public Transit** | 9.4/10 | Excellent |
 | **Groceries** | 7.1/10 | Good |
 | **Restaurants** | 9.8/10 | Excellent |
@@ -42,6 +42,16 @@ This neighborhood in Portland's Nob Hill area of the Northwest District enjoys e
 - **Bicycle culture** — Cyclepath West (bike shop) within 900m; Portland's bike-friendly infrastructure
 - **8 transit stops** within 1km on NW 23rd Avenue and W Burnside Street
 - **EV charging** — EVgo station 336m away with 24/7 access
+
+## Pedestrian Infrastructure Assessment
+
+The neighborhood features exceptional pedestrian infrastructure:
+
+- **Sidewalk Coverage:** Excellent — continuous sidewalks on NW 23rd Avenue corridor, NW Lovejoy, NW Northrup, and all cross streets
+- **Crossings:** Signalized intersections at all major cross streets (Marshall, Lovejoy, Northrup, Burnside) with ADA-compliant curb ramps
+- **Safety:** Moderate — NW 23rd is a quiet residential/commercial street with low vehicle speeds; high foot traffic from restaurants and shops provides natural surveillance
+- **Shade:** Street trees along most blocks providing canopy coverage
+- **Surface:** Well-maintained sidewalks with tactile warning strips
 
 ## Amenities Detail
 
@@ -104,6 +114,13 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 ### Services
 - Chase Bank — 602m at 2364 W Burnside Street
 - Walgreens Pharmacy — 38m at 1215 NW 23rd Avenue
+
+### Commute Analysis
+
+| Destination | Walking | Biking | Streetcar | Bus | Car |
+|-------------|---------|--------|-----------|-----|-----|
+| Downtown Portland (3.0 km) | 7 min | 8 min | 6 min | 8 min | 8 min |
+| Pearl District (1.0 km) | 12 min | — | 3 min | — | — |
 
 ### Limitations
 - No dedicated entertainment venues (cinema, theater) within 1km
