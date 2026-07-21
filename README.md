@@ -121,7 +121,7 @@ Portland Streetcar NS Line, A Loop, and B Loop serve the area — 8 stops within
 
 ## Data Files
 
-This repository contains five data files for the Nob Hill / Northwest District neighborhood:
+This repository contains six data files for the Nob Hill / Northwest District neighborhood:
 
 | File | Description |
 |------|-------------|
@@ -130,6 +130,7 @@ This repository contains five data files for the Nob Hill / Northwest District n
 | [`data/nob-hill-1234-nw-23rd-ave-live-contribution.json`](data/nob-hill-1234-nw-23rd-ave-live-contribution.json) | OSM-verified live contributor data with detailed amenity records, hours, phone numbers, websites, and EV charging info (enriched 2026-07-22) |
 | [`data/nob-hill-1234-nw-23rd-ave-area-profile.json`](data/nob-hill-1234-nw-23rd-ave-area-profile.json) | Supplementary area profile — walkability, transit, bicycle infrastructure, parks, and community services breakdown |
 | [`data/nob-hill-1234-nw-23rd-ave-walkability-audit.json`](data/nob-hill-1234-nw-23rd-ave-walkability-audit.json) | Verified walkability audit (2026-07-22) with pedestrian infrastructure assessment, transit connectivity details, commute analysis, and OSM-verified amenity catalog |
+| [`data/nob-hill-1234-nw-23rd-ave-enriched.json`](data/nob-hill-1234-nw-23rd-ave-enriched.json) | **Enriched neighborhood profile** (2025-07-22) with detailed amenity breakdown, commute analysis, cultural venues, artwork, EV charging, and bicycle infrastructure — OSM-verified |
 
 ### Repository Structure
 
@@ -144,7 +145,8 @@ neighborhood-profile/
 │   ├── nob-hill-1234-nw-23rd-ave.json  # Address-specific detailed data
 │   ├── nob-hill-1234-nw-23rd-ave-live-contribution.json  # Live contributor data
 │   ├── nob-hill-1234-nw-23rd-ave-area-profile.json  # Supplementary area profile
-│   └── nob-hill-1234-nw-23rd-ave-walkability-audit.json  # Verified walkability audit
+│   ├── nob-hill-1234-nw-23rd-ave-walkability-audit.json  # Verified walkability audit
+│   └── nob-hill-1234-nw-23rd-ave-enriched.json  # Enriched profile with full amenity detail
 └── issues/
     └── #1                              # Data update tracking
 ```
